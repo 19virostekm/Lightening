@@ -1,4 +1,4 @@
-int startX = (int)(Math.random()*251);
+int startX = (int)(Math.random()*651);
 int startY = 0;
 int endX = 150;
 int endY = 0;
@@ -27,8 +27,8 @@ void draw()
 
 void mousePressed()
 {
-  startX = (int)(Math.random()*251);
-  startY = 150;
+  startX = (int)(Math.random()*651);
+  startY = 0;
   endX = 150;
   endY = 0;
 }

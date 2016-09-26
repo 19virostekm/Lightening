@@ -28,7 +28,7 @@ void draw()
 void mousePressed()
 {
   startX = (int)(Math.random()*251);
-  startY = 0;
+  startY = 150;
   endX = 150;
   endY = 0;
 }
